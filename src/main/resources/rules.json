@@ -1,0 +1,43 @@
+{
+  "rules": [
+    {
+      "keys": [
+        {
+          "name": "r1",
+          "on": "k1",
+          "time": "10",
+          "unit": "second",
+          "value": "1"
+        },
+        {
+          "name": "r2",
+          "on": "k1",
+          "time": "60",
+          "unit": "second",
+          "value": "2"
+        }
+      ],
+      "endpoints": [
+        {
+          "name": "r3",
+          "on": "ep1",
+          "time": "10",
+          "unit": "second",
+          "value": "2"
+        }
+      ],
+      "defaults": [
+        {
+          "keys": {
+            "name": "default",
+            "on": "",
+            "time": "60",
+            "unit": "second",
+            "value": "10"
+          },
+          "endpoints": {}
+        }
+      ]
+    }
+  ]
+}
